@@ -1,0 +1,9 @@
+C:\Users\johnsondal\Desktop\MadDev\Valence\Valence\bin\Release\UWD2L.Valence.dll
+C:\Users\johnsondal\Desktop\MadDev\Valence\Valence\bin\Release\UWD2L.Valence.pdb
+C:\Users\johnsondal\Desktop\MadDev\Valence\Valence\bin\Release\D2L.Extensibility.AuthSdk.dll
+C:\Users\johnsondal\Desktop\MadDev\Valence\Valence\bin\Release\D2L.Extensibility.AuthSdk.Restsharp.dll
+C:\Users\johnsondal\Desktop\MadDev\Valence\Valence\bin\Release\RestSharp.dll
+C:\Users\johnsondal\Desktop\MadDev\Valence\Valence\bin\Release\RestSharp.xml
+C:\Users\johnsondal\Desktop\MadDev\Valence\Valence\obj\Release\UWD2L.Valence.csprojResolveAssemblyReference.cache
+C:\Users\johnsondal\Desktop\MadDev\Valence\Valence\obj\Release\UWD2L.Valence.dll
+C:\Users\johnsondal\Desktop\MadDev\Valence\Valence\obj\Release\UWD2L.Valence.pdb
