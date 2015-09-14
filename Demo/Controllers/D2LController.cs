@@ -70,6 +70,48 @@ namespace Demo.Controllers
            return Content("Success!");
         }
 
+        public ActionResult DeleteUser()
+        {
+            Demo.Models.D2LEnroll model = new Models.D2LEnroll();
+            return View(model);
+        
+        }
+        
+        [HttpPost]
+        public ActionResult DeleteUser(Demo.Models.D2LEnroll model)
+        {
+            UserData user;
+            try
+            {
+                user = d2l.GetUserData(model.UserName);
+                model.UserID = user.UserId;
+            }
+            catch (System.Exception e)
+            {
+                return Content("Error: " + e.ToString());
+
+            }
+
+            if (user == null)
+            {
+                return Content("User Not Found");
+
+            }
+
+            try
+            {
+                d2l.DeleteUser(model.OrgUnitID, model.UserID);
+            }
+            catch (System.Exception e1)
+            { 
+                return Content ("Error:" + e1.ToString ());
+            
+            }
+
+            return Content("Success!");
+
+        }
+
         public ActionResult GetFinalGrade()
         {
             Demo.Models.D2LFinalGrade model = new Models.D2LFinalGrade();

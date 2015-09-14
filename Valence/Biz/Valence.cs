@@ -206,6 +206,25 @@ namespace UWD2L.Valence.Biz
         
         
         }
+
+        public bool DeleteUser(int OrgUnitID, int UserID)
+        {
+            m_valenceUserContext = m_valenceAppContext.CreateUserContext(m_userId, m_userKey, m_valenceHost);
+            Models.Enrollment.EnrollmentData rtnValue = new Models.Enrollment.EnrollmentData();
+
+            var client = new RestClient("https://" + LMS_URL);
+            var authenticator = new ValenceAuthenticator(m_valenceUserContext);
+
+            string url = string.Format(USER_ENROLL_REMOVE, OrgUnitID.ToString(), UserID.ToString());
+            var request = new RestRequest(url, Method.DELETE);
+
+            authenticator.Authenticate(client, request);
+            var response = client.Execute(request);
+
+            return true;
+        
+        
+        }
         
 
     }

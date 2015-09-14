@@ -264,6 +264,7 @@
     <Content Include="Views\Web.config" />
     <Content Include="Views\D2L\EnrollUser.cshtml" />
     <Content Include="Views\D2L\GetFinalGrade.cshtml" />
+    <Content Include="Views\D2L\DeleteUser.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
