@@ -38,10 +38,10 @@ The library requires the following webconfig / appconfig settings.
 #### GetUserEnrollments
 
 	Retrieve enrollment details for a user in the provided org.
-
-  Parameters: userName – Typically the users netID
-
-  Returns: POC List of D2L’s UserOrgUnit http://docs.valence.desire2learn.com/res/enroll.html#Enrollment.EnrollmentData
+	
+	Parameters: userName – Typically the users netID
+	
+	Returns: POC List of D2L’s UserOrgUnit http://docs.valence.desire2learn.com/res/enroll.html#Enrollment.EnrollmentData
 
 #### EnrollUser
 
