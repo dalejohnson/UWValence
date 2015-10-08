@@ -6,7 +6,7 @@ UW-Madison’s Learn@UW Team has created a class library which provides a simpli
 
 ## Project Overall Structure / Requirements
 
-Our project includes the UWD2L.Valence library and Demo MVC5 application which demonstrates its use.  The Valence library uses the following NuGet packages; D2L.Extensibility.AuthSdk.Restsharp 1.1.1, D2L.Extensiblity.AuthSdk 1.2.0, and RestSharp 105.1.0. It requires 4.5 net framework.
+The project includes the UWD2L.Valence library and Demo MVC5 application which demonstrates its use.  The Valence library uses the following NuGet packages; D2L.Extensibility.AuthSdk.Restsharp 1.1.1, D2L.Extensiblity.AuthSdk 1.2.0, and RestSharp 105.1.0. It requires 4.5 net framework.
 
 The library requires the following webconfig / appconfig settings.
 
