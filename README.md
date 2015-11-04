@@ -61,3 +61,13 @@ The library requires the following webconfig / appconfig settings.
 			      UserID – D2L User ID (Use GetUserData to lookup)
 		
 	Returns: Nothing
+
+#### GetFinalGrade
+
+	Retreive a courses final grade by student.
+	
+	Parameters: orgUnitID (D2LID) – Org unit ID
+			      UserID – D2L User ID (Use GetUserData to lookup)
+		
+	Returns: String (points / max points)
+        
